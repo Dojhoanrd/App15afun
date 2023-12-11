@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App15a.Vendedor">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGray">
+            <Label Text="¡Bienvenido! Vendedor" 
+           FontAttributes="Bold" 
+           FontSize="36"
+           TextColor="Black"
+           VerticalTextAlignment="Center" 
+           HorizontalTextAlignment="Center" />
+
+            <StackLayout BackgroundColor="LightGray">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/2133/2133124.png" Aspect="AspectFit"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
